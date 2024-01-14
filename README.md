@@ -8,8 +8,6 @@ As of Selenide version 6.17.0 (as far as I know) this issue has been fixed with 
 I currently work as a QA Software Developer and one of my main roles in this position is to produce automated functional tests for my employer's websites. I use the Selenide for Java library in conjunction with Google Chrome and ChromeDriver in order to accomplish this. The issue this programs aims to help fix stemmed from a problem with Selenide's integration with ChromeDriver, which frequently resulted in significant numbers of Chrome and ChromeDriver instances being opened invisibly on my work machine, in turn causing high CPU consumption.    <br><br>    
 
 # Functionality:
-The main function of this program is to find and terminate broken instances of Chrome and ChromeDriver spawned by the Selenide bug, without killing any actual valid instances being used by you or a Selenide app.    <br><br>    
+The main function of this program is to find and terminate broken instances of Chrome and ChromeDriver spawned by the Selenide bug, without killing any actual valid instances being used by you or a Selenide app. Therefore, this program is safe to execute while using chrome, as it will _not_ interfere with any regular instances of Chrome.  It will only kill bugged and broken instances spawned by Selenide.    <br><br>    
 
-Therefore, there is no danger in running this program frequently, or while using chrome, as it will _not_ interfere with any regular instances of Chrome.  It will only kill bugged and broken instances spawned by Selenide.    <br><br>    
-
-Ideally, this script would be setup to run using task scheduler, but it can be executed manually as well.
+This script is most useful when triggered by task scheduler at frequent intervals.
