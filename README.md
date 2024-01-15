@@ -8,7 +8,6 @@ As of Selenide version 6.17.0 (as far as I know) this issue has been fixed with 
 I currently work as a QA Software Developer and one of my main roles in this position is to produce automated functional tests for my employer's websites. I use the Selenide for Java library in conjunction with Google Chrome and ChromeDriver in order to accomplish this. The issue this programs aims to help fix stemmed from a problem with Selenide's integration with ChromeDriver, which frequently resulted in significant numbers of Chrome and ChromeDriver instances being opened invisibly on my work machine, in turn causing high CPU consumption.    <br><br>    
 
 ### Other instances of people facing this issue:
-* https://stackoverflow.com/questions/69304298/selenium-chromedriver-is-creating-multiple-instances-when-only-one-is-wanted
 * https://github.com/SeleniumHQ/selenium/issues/5600
 * https://bugs.chromium.org/p/chromedriver/issues/detail?id=2311
 * https://github.com/selenide/selenide/issues/1398
