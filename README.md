@@ -15,6 +15,6 @@ I currently work as a QA Software Developer and one of my main roles in this pos
 * https://github.com/nightwatchjs/nightwatch/issues/879
 
 # Functionality:
-The main function of this program is to find and terminate broken instances of Chrome and ChromeDriver spawned by the Selenide bug, without killing any actual valid instances being used by you or a Selenide app. Therefore, this program is safe to execute while using chrome, as it will _not_ interfere with any regular instances of Chrome.  It will only kill bugged and broken instances spawned by Selenide.    <br><br>    
+The main function of this program is to find and terminate broken instances of Chrome and ChromeDriver spawned by the Selenide bug, without killing any actual valid instances being used by you or a Selenide app. Therefore, this program is safe to execute while using Chrome, as it will only kill bugged and broken instances spawned by Selenide and will _not_ interfere with any normal/active instances of Chrome.    <br><br>    
 
 This script is most useful when triggered by task scheduler at frequent intervals.
