@@ -1,5 +1,5 @@
 ﻿<# 
-    TLDR: This script kills buggy, hidden instances of chrome and chromedriver from AFT's that are wasting resources on your system. It does not kill any active chrome or chromedriver instances that were started by you or an AFT.
+    TLDR: This script kills buggy, hidden instances of chrome and chromedriver caused by Selenide/Selenium Automated Functional Tests (AFT's) that are wasting resources on your system. It does not kill any active chrome or chromedriver instances being used by you or an AFT.
 
     The following is a summary of the terminology and behavior of this script:
     An 'invalid' process is an invisible / hidden instance of chrome or chromedriver that is broken and wasting resources on your system. These invalid instances only seem to get left behind on some machines. It does seem that instances get left behind more frequently when tests fail, a test frequently opens and closes many instances of chrome or chromedriver, or you stop/quit a test in the middle of execution.
