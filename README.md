@@ -1,6 +1,6 @@
 # ChromeQuasher  
 
-A Windows tool to terminate malfunctioning, CPU hogging, headless instances of Google Chrome and Chrome Driver spawned by a bug in Selenide versions below 6.17.0. This program is a ```band-aid``` fix for a buggy testing framework.  
+A Windows tool to terminate malfunctioning, CPU hogging, headless instances of Google Chrome and Chrome Driver spawned by a bug in Selenide versions below 6.17.0. This program is a _band-aid_ fix for a buggy testing framework.  
 
 ## Read this first  
 
